@@ -44,6 +44,9 @@ function SignIn() {
             <p className="pageHeader">Welcome Back</p>
         </header>
         <main>
+            <Link to='/sign-up' className='registerLink'>
+                Sign Up Instead
+            </Link>
             <form onSubmit={onSubmit}>
                 <input 
                     type='email' 
@@ -80,12 +83,7 @@ function SignIn() {
                     </button>
                 </div>   
             </form>
-
-            <OAuth />
-            
-            <Link to='/sign-up' className='registerLink'>
-                Sign Up Instead
-            </Link>
+            <OAuth />          
         </main>
     </div>
     </>
