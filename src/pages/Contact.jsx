@@ -44,6 +44,16 @@ function Contact() {
 
           <form className='messageForm'>
 
+            <a href={`mailto:${landlord.email}?Subject=${searchParams.get(
+                'listingName'
+              )}&body=${message}`}>
+
+              <button type='button' className='primaryButton'>
+                Send Message
+              </button>
+
+            </a>
+            
             <div className='messageDiv'>
               <label htmlFor='message' className='messageLabel'>
                 Message
@@ -57,16 +67,6 @@ function Contact() {
 
                 </textarea>
             </div>
-
-            <a href={`mailto:${landlord.email}?Subject=${searchParams.get(
-                'listingName'
-              )}&body=${message}`}>
-
-              <button type='button' className='primaryButton'>
-                Send Message
-              </button>
-
-            </a>
           </form>
         </main>
         
