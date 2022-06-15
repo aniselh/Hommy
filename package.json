@@ -1,5 +1,6 @@
 {
   "name": "homarket",
+  "homepage": "http://store.yourportalinc.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
