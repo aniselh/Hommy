@@ -2,6 +2,7 @@
   "name": "homarket",
   "homepage": "http://store.yourportalinc.com",
   "version": "0.1.0",
+  "homepage": "http://store.yourportalinc.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
